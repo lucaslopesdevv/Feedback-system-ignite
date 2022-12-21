@@ -19,10 +19,12 @@ export function App() {
             content="Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Id placeat earum veniam itaque accusamus assumenda libero cupiditate illo doloremque 
             obcaecati rerum, saepe maxime provident illum recusandae hic, voluptate molestias vero."
+            prof="Front-end Developer"
           />
           <Post
             author="Raquel Ferreira Fabricio Lopes"
             content="Testando isso aqui"
+            prof="Back-end Developer"
           />
         </main>
       </div>

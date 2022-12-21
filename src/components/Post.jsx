@@ -1,6 +1,6 @@
 import styles from "./Post.module.css";
 
-export function Post() {
+export function Post(props) {
   return (
     <article className={styles.post}>
       <header>
@@ -10,8 +10,8 @@ export function Post() {
             src="https://github.com/lucaslopesdevv.png"
           />
           <div className={styles.authorInfo}>
-            <strong>Lucas Fabricio Lopes</strong>
-            <span>Web Developer</span>
+            <strong>{props.author}</strong>
+            <span>{props.prof}</span>
           </div>
         </div>
 
