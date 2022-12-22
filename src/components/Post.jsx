@@ -17,7 +17,7 @@ export function Post(props) {
         </div>
 
         <time title="11 de Maio as 08:13" dateTime="2022-05-11 08:13:30">
-          Publicado há 1h
+          Publicado há 5h atrás
         </time>
       </header>
       <div className={styles.content}>
